@@ -1,0 +1,58 @@
+html {
+  font-size: larger;
+  background-color: rgb(236, 175, 175);
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 5vh;
+  width: 20vw;
+  border-radius: 5px;
+  background-color: rgb(236, 175, 175);
+}
+
+.buttons {
+  height: 6vh;
+  width: 8vw;
+  border-radius: 5px;
+  border: rgb(51, 107, 153) solid 3px;
+}
+
+#clearButton {
+  background-color: skyblue;
+}
+
+#addTodo {
+  background-color: rgb(37, 218, 127);
+}
+
+.text {
+  font-size: large;
+  margin: 1%;
+}
+
+b {
+  color: brown;
+}
+
+#todo {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5%;
+}
+
+#complited-todo {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.todos {
+  border: brown solid 3px;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 2%;
+}
